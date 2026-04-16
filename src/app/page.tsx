@@ -29,10 +29,6 @@ export default function Home() {
         <div className="container">
           <h3>Explore Neighborhoods</h3>
           <div className="map-wrapper">
-            <link
-              rel="stylesheet"
-              href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-            />
             <MapLoader apartments={apartments} />
           </div>
         </div>

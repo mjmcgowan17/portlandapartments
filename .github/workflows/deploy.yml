@@ -2,7 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - claude/build-working-website-sSjN3
   workflow_dispatch:
 
 permissions:
